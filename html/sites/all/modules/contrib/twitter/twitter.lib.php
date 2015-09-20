@@ -55,6 +55,7 @@ class Twitter {
       watchdog('twitter', '!message', array('!message' => $e->__toString()), WATCHDOG_ERROR);
       return FALSE;
     }
+    dsm($params);
     parse_str($response, $token);
     $this->token = new OAuthConsumer($token['oauth_token'], $token['oauth_token_secret']);
     return $token;
