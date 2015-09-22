@@ -897,3 +897,7 @@ h3.comment-title a{
 .credit a:hover {
     color: #aaa;
 }
+.view-instagram-gallery td{background:#fff;padding:10px 0;border:none;}
+.view-instagram-gallery table{border:none;}
+.view-youtube-videos td{background:#fff;padding:10px 0;border:none;}
+.view-youtube-videos table{border:none;}
