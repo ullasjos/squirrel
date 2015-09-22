@@ -10,16 +10,17 @@ Prerequisites
 
 Installation with Vagrant
 -------------------------
-
-Assumptions:
-	- host folder => /var/www/sqbox
+Assumptions
+```	- host folder => /var/www/sqbox
 	- target folder => /var/www/
-
-Steps:
+```
+Steps
+```
 	- cd /var/www/ 
 	- git clone https://github.com/ullasjos/squirrel.git sqbox
 	- cd sqbox/VagrantBox 
 	- vagrant up
+```
 
 Note: default IP will be 192.168.56.109 
 add the following line in the host file of your local machine
