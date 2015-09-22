@@ -12,8 +12,8 @@ Installation with Vagrant
 -------------------------
 
 Assumptions 
-	- host folder; /var/www/sqbox
-	- target folder; /var/www/
+	- host folder => /var/www/sqbox
+	- target folder => /var/www/
 
 Steps
 	- cd /var/www/ 
@@ -27,4 +27,6 @@ add the following line in the host file of your local machine
 192.168.56.109 local.sqbox 
 to your local machine's host entry
 
-type http://local.sqbox in your address bar
+type http://local.sqbox in your address bar and the site will be up.
+
+You can always change the configuration settings like host and target folder, IPs etc in config.yaml file - https://github.com/ullasjos/squirrel/blob/master/VagrantBox/puphpet/config.yaml
