@@ -11,13 +11,11 @@ Prerequisites
 Installation with Vagrant
 -------------------------
 
-Assumptions 
----------
+Assumptions:
 	- host folder => /var/www/sqbox
 	- target folder => /var/www/
 
-Steps
------
+Steps:
 	- cd /var/www/ 
 	- git clone https://github.com/ullasjos/squirrel.git sqbox
 	- cd sqbox/VagrantBox 
@@ -32,3 +30,7 @@ to your local machine's host entry
 type http://local.sqbox in your address bar and the site will be up.
 
 You can always change the configuration settings like host and target folder, IPs etc in config.yaml file - https://github.com/ullasjos/squirrel/blob/master/VagrantBox/puphpet/config.yaml
+
+
+Installation - Old fashioned way
+--------------------------------
