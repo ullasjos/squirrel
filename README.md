@@ -34,6 +34,8 @@ to your local machine's host entry
 type http://local.sqbox in your address bar and the site will be up.
 
 You can always change the configuration settings like host and target folder, IPs etc in config.yaml file - https://github.com/ullasjos/squirrel/blob/master/VagrantBox/puphpet/config.yaml
+eg) IP you can change at line #11 private_network: 192.168.56.1xx
+source and target at line# 37 and 38 respectively
 
 
 Installation - Old fashioned way
@@ -53,5 +55,5 @@ Steps
 	- create dabatabse squirrel_db;
 	- exit;
 	- mysql -umyadmin -ppasswrod squirrel_db < /scripts/db/squirrel_db.sql
-    (if you are changing, the databasename, db name, please update sites/all/default/settings.php accordingly)
+    (if you are changing, the databasename and credentials please update sites/all/default/settings.php accordingly)
 ```
