@@ -3,15 +3,15 @@ vagrantfile:
     vm:
         box: puphpet/ubuntu1404-x64
         box_url: puphpet/ubuntu1404-x64
-        hostname: local.squirell
+        hostname: local.sqbox
         memory: '512'
         cpus: '1'
         chosen_provider: virtualbox
         network:
-            private_network: 192.168.56.107
+            private_network: 192.168.56.109
             forwarded_port:
-                vflnp_pdyqgob5y54n:
-                    host: '6759'
+                vflnp_gjjy6qskiw7p:
+                    host: '5810'
                     guest: '22'
         post_up_message: ''
         provider:
@@ -33,8 +33,8 @@ vagrantfile:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            vflsf_i2mj0m6w00jw:
-                source: /var/www/squirrel
+            vflsf_1c13u5rcqhmz:
+                source: /var/www/sqbox
                 target: /var/www
                 sync_type: default
                 smb:
@@ -69,7 +69,9 @@ vagrantfile:
         host: detect
 server:
     install: '1'
-    packages: {  }
+    packages:
+        - vim
+        - htop
 users_groups:
     install: '1'
     groups: {  }
@@ -95,7 +97,7 @@ nginx:
         proxy_buffers: '4 256k'
     upstreams: {  }
     vhosts:
-        nxv_plhcsiatjfqu:
+        nxv_gjd03q69fy2h:
             server_name: awesome.dev
             server_aliases:
                 - www.awesome.dev
@@ -115,7 +117,7 @@ nginx:
             rewrite_to_https: '1'
             spdy: '1'
             locations:
-                nxvl_42t2gp8tz6iu:
+                nxvl_1t706nu375mh:
                     location: /
                     autoindex: 'off'
                     internal: 'off'
@@ -126,7 +128,7 @@ nginx:
                     fastcgi: ''
                     fastcgi_index: ''
                     fastcgi_split_path: ''
-                nxvl_l7s2r9vqy38m:
+                nxvl_u3ql44nqnakj:
                     location: '~ \.php$'
                     autoindex: 'off'
                     internal: 'off'
@@ -154,7 +156,7 @@ apache:
         - proxy_fcgi
         - rewrite
     vhosts:
-        av_jr9z7vmvc2iq:
+        av_450nwmme42yf:
             servername: awesome.dev
             serveraliases:
                 - www.awesome.dev
@@ -171,7 +173,7 @@ apache:
             ssl_protocol: ''
             ssl_cipher: ''
             directories:
-                avd_caq302fmac0c:
+                avd_rxa1w8gmi80i:
                     path: /var/www/awesome
                     options:
                         - Indexes
@@ -183,7 +185,7 @@ apache:
                         - 'all granted'
                     custom_fragment: ''
                     files_match:
-                        avdfm_seif2dpxur0b:
+                        avdfm_ukrg3cyo62sl:
                             path: \.php$
                             sethandler: 'proxy:fcgi://127.0.0.1:9000'
                             custom_fragment: ''
@@ -208,7 +210,7 @@ php:
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:
-        phpfp_ajxk3yhv4p2k:
+        phpfp_6xdkh8bkyl4w:
             ini:
                 prefix: www
                 listen: '127.0.0.1:9000'
@@ -256,7 +258,7 @@ python:
     packages: {  }
     versions: {  }
 nodejs:
-    install: '0'
+    install: '1'
     npm_packages: {  }
 hhvm:
     install: '0'
@@ -281,16 +283,16 @@ mysql:
         override_options: {  }
     adminer: 0
     users:
-        mysqlnu_lhvz7qnuga0e:
+        mysqlnu_9oru625c1dpw:
             name: myadmin
             password: password
     databases:
-        mysqlnd_kg53hxxhpmw4:
+        mysqlnd_bzizllc2dv28:
             name: squirrel_db
-            sql: ''
+            sql: /var/www/scripts/db/squirrel_db.sql
     grants:
-        mysqlng_iau4nfxz2moo:
-            user: dbuser
+        mysqlng_vsu638hhgkvt:
+            user: myadmin
             table: '*.*'
             privileges:
                 - ALL
@@ -302,15 +304,15 @@ mariadb:
         override_options: {  }
     adminer: 0
     users:
-        mariadbnu_ujvpjgjksvvy:
+        mariadbnu_50pzzfd8o19a:
             name: dbuser
             password: '123'
     databases:
-        mariadbnd_v7eu46le1v6x:
+        mariadbnd_akrq51b9hs2q:
             name: dbname
             sql: ''
     grants:
-        mariadbng_0x4i67mntque:
+        mariadbng_t0rtcypld5p7:
             user: dbuser
             table: '*.*'
             privileges:

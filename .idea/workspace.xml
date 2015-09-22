@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42464323-51a2-41fa-939e-57af9e6c0870" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="/private/var/www/squirrel/html/sites/all/modules/contrib/single_page_website/js/bartik.ini" afterPath="/private/var/www/squirrel/html/sites/all/modules/contrib/single_page_website/js/bartik.ini" />
-      <change type="MODIFICATION" beforePath="/private/var/www/squirrel/html/sites/all/modules/contrib/single_page_website/js/responsive_bartik.ini" afterPath="/private/var/www/squirrel/html/sites/all/modules/contrib/single_page_website/js/responsive_bartik.ini" />
-      <change type="MODIFICATION" beforePath="/private/var/www/squirrel/html/sites/all/modules/contrib/single_page_website/js/zen.ini" afterPath="/private/var/www/squirrel/html/sites/all/modules/contrib/single_page_website/js/zen.ini" />
-    </list>
+    <list default="true" id="42464323-51a2-41fa-939e-57af9e6c0870" name="Default" comment="" />
     <ignored path="squirrel.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/sites/all/themes/responsive/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="277" column="1" selection-start="4056" selection-end="4056" vertical-scroll-proportion="-7.159145" vertical-offset="7169" max-vertical-offset="13620">
+            <state line="277" column="1" selection-start="4056" selection-end="4056" vertical-scroll-proportion="0.0" vertical-offset="7169" max-vertical-offset="13620">
               <folding />
             </state>
           </provider>
@@ -81,19 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_post.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/sites/all/modules/contrib/twitter/twitter_post/twitter_post.module">
+      <file leaf-file-name="squirrel_db.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/db/squirrel_db.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="263" column="21" selection-start="8827" selection-end="8827" vertical-scroll-proportion="-61.32" vertical-offset="834" max-vertical-offset="4215">
+            <state line="33" column="0" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.5434174" vertical-offset="301" max-vertical-offset="84825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/sites/all/themes/responsive/template.php">
+      <file leaf-file-name="twitter_post.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/sites/all/modules/contrib/twitter/twitter_post/twitter_post.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="26" selection-start="3783" selection-end="3785" vertical-scroll-proportion="0.0" vertical-offset="1736" max-vertical-offset="2130">
+            <state line="263" column="21" selection-start="8827" selection-end="8827" vertical-scroll-proportion="-61.32" vertical-offset="834" max-vertical-offset="4215">
               <folding />
             </state>
           </provider>
@@ -217,7 +213,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,89 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="squirrel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="squirrel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="squirrel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="squirrel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="responsive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="squirrel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="squirrel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
+              <option name="myItemId" value="Grunt" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,8 +326,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="25" width="1362" height="797" extended-state="1" />
-    <editor active="true" />
+    <frame x="134" y="25" width="1362" height="797" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -422,7 +340,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -534,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/sites/default/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="45" selection-start="17698" selection-end="17698" vertical-scroll-proportion="-5.625" vertical-offset="5760" max-vertical-offset="8070">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/sites/all/modules/contrib/devel/devel.module">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1894" column="9" selection-start="59636" selection-end="59636" vertical-scroll-proportion="0.3452188" vertical-offset="28137" max-vertical-offset="32340">
@@ -578,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/sites/all/themes/responsive/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="120" column="73" selection-start="5784" selection-end="5784" vertical-scroll-proportion="-5.3333335" vertical-offset="1672" max-vertical-offset="3315">
@@ -603,7 +507,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/sites/all/themes/responsive/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="1" selection-start="4056" selection-end="4056" vertical-scroll-proportion="-7.159145" vertical-offset="7169" max-vertical-offset="13620">
+        <state line="277" column="1" selection-start="4056" selection-end="4056" vertical-scroll-proportion="0.0" vertical-offset="7169" max-vertical-offset="13620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="42" selection-start="7894" selection-end="7905" vertical-scroll-proportion="-7.875" vertical-offset="2346" max-vertical-offset="8070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/db/squirrel_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.5434174" vertical-offset="301" max-vertical-offset="84825">
           <folding />
         </state>
       </provider>
