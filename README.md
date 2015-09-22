@@ -10,10 +10,13 @@ Prerequisites
 
 Installation with Vagrant
 -------------------------
+
 Assumptions
-```	- host folder => /var/www/sqbox
-	- target folder => /var/www/
 ```
+- host folder => /var/www/sqbox
+- target folder => /var/www/
+```
+
 Steps
 ```
 	- cd /var/www/ 
