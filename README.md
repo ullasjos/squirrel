@@ -38,3 +38,20 @@ You can always change the configuration settings like host and target folder, IP
 
 Installation - Old fashioned way
 --------------------------------
+Assumptions
+```
+- LAMP already installed with necessary PHP modules - curl, gd library etc.
+- NPM installed
+```
+
+Steps
+```
+	- Login to your mysql server as root
+	- CREATE USER 'myadmin'@'localhost' IDENTIFIED BY 'password';
+	- GRANT ALL PRIVILEGES ON * . * TO 'myadmin'@'localhost'; //or the necessary permissions u want
+	- mysql -umyadmin -ppasswrod;
+	- create dabatabse squirrel_db;
+	- exit;
+	- mysql -umyadmin -ppasswrod squirrel_db < /scripts/db/squirrel_db.sql
+    (if you are changing, the databasename, db name, please update sites/all/default/settings.php accordingly)
+```
