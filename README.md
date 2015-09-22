@@ -12,10 +12,12 @@ Installation with Vagrant
 -------------------------
 
 Assumptions 
+---------
 	- host folder => /var/www/sqbox
 	- target folder => /var/www/
 
 Steps
+-----
 	- cd /var/www/ 
 	- git clone https://github.com/ullasjos/squirrel.git sqbox
 	- cd sqbox/VagrantBox 
