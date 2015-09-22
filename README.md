@@ -2,13 +2,14 @@ SQUIRREL WHISPERERS
 ===================
 Austin’s own Squirrel Whisperers are poised for breakout success with the release of their latest single, “Devops Overlord,” receiving heavy airplay on regional radio stations and online streaming services.
 
-
 Prerequisites
+--------------
 
 - Oracle Virtualbox
 - Vagrant 
 
 Installation with Vagrant
+-------------------------
 
 Assumptions 
 	- host folder; /var/www/sqbox
