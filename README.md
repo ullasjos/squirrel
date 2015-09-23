@@ -36,16 +36,16 @@ type http://local.sqbox in your address bar and the site will be up.
 You can always change the configuration settings like host and target folder, IPs etc in config.yaml file - https://github.com/ullasjos/squirrel/blob/master/VagrantBox/puphpet/config.yaml
 eg) IP you can change at line #11 private_network: 192.168.56.1xx
 source and target at line# 37 and 38 respectively
+
 Note: 
 if In case you come across the following issue while installing with vagrant 
-
-"The VirtualBox VM was created with a user that doesn't match the
+_"The VirtualBox VM was created with a user that doesn't match the
 current user running Vagrant. VirtualBox requires that the same user
 be used to manage the VM that was created. Please re-run Vagrant with
 that user. This is not a Vagrant issue.
 
 The UID used to create the VM was: 883701032
-Your UID is: 2108898706"
+Your UID is: 2108898706"_
 
 please update VagrantBox/.vagrant/machines/default/virtualbox/creator_uid file with your uid. eg) In this case with  2108898706.
 
