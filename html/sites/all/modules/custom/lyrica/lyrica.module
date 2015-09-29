@@ -13,11 +13,12 @@ function get_itunes() {
     drupal_add_css(drupal_get_path('module', 'lyrica') . '/css/style.css', 'module', 'all', TRUE);
     $var = "";
     $var .= '<form id="searchbox" action="">
-                <input id="search" type="text" placeholder="Search Albums, Artists, Lyrics..">
+                <input id="search" type="text" name="term" placeholder="Search Albums, Artists, Lyrics..">
                 <input id="submit" type="submit" value="Go">
                 </form>';
     if(isset($_REQUEST['term']))
         $term = urlencode($_REQUEST['term']);
+
     if(empty($term))
         $term = "Celine";
     $json =  file_get_contents('http://itunes.apple.com/search?term='.$term.'&limit=25&media=music&entity=musicArtist,musicTrack,album,mix,song');
